@@ -1,0 +1,300 @@
+{
+  "_comment": "Справочник ЖК → Район. Формат: название_жк: {district: район, city: город, country: страна}",
+  "_last_updated": "2026-01-29",
+  
+  "objects": {
+    "Prime Park": {"district": "Хорошёвский", "city": "Москва", "country": "Россия"},
+    "Прайм парк": {"district": "Хорошёвский", "city": "Москва", "country": "Россия"},
+    "Прайм парк вторичка": {"district": "Хорошёвский", "city": "Москва", "country": "Россия"},
+    
+    "Primavera": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    "Примавера новая": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Сердце Столицы": {"district": "Хорошево-Мневники", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Квартал на Ленинском": {"district": "Обручевский", "city": "Москва", "country": "Россия"},
+    
+    "Тургенев": {"district": "Басманный", "city": "Москва", "country": "Россия"},
+    
+    "Поклонная 9": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    "Покланная 9": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    "Поклонная, 9": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    
+    "Династия": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "Вторичка Династия": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Ривер парк Towers Кутузовский": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    "River Park Towers": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    
+    "Царская площадь": {"district": "Тверской", "city": "Москва", "country": "Россия"},
+    
+    "АртХаус": {"district": "Якиманка", "city": "Москва", "country": "Россия"},
+    
+    "Репаблик": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "Republic": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Лаврушинский": {"district": "Якиманка", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Патриарх": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Slava": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "Слава": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Достижение вторичка": {"district": "Марьина Роща", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Суббота": {"district": "Марьино", "city": "Москва", "country": "Россия"},
+    
+    "Eleven вторичка": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Крутицкая набережная 23": {"district": "Таганский", "city": "Москва", "country": "Россия"},
+    
+    "Анабель": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Ренессанс Парк": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Б. Бронная 19": {"district": "Тверской", "city": "Москва", "country": "Россия"},
+    
+    "Поселок Художников": {"district": "Сокол", "city": "Москва", "country": "Россия"},
+    
+    "Фрунзенская набережная": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "Резиденция МОНЭ": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Victory Park Residences": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    
+    "Гранд парк": {"district": "Хорошево-Мневники", "city": "Москва", "country": "Россия"},
+    
+    "Вторичка Полянка 44": {"district": "Якиманка", "city": "Москва", "country": "Россия"},
+    
+    "Союз": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Уланский переулок 13": {"district": "Красносельский", "city": "Москва", "country": "Россия"},
+    
+    "Верейская 41": {"district": "Очаково-Матвеевское", "city": "Москва", "country": "Россия"},
+    
+    "Кирочная 24": {"district": "Центральный", "city": "Санкт-Петербург", "country": "Россия"},
+    
+    "Зиларт": {"district": "Даниловский", "city": "Москва", "country": "Россия"},
+    
+    "Садовые кварталы": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    "Вторичка Садовые кварталы": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "Башня Федерация": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "Башня Федерация вторичка": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Башня Око": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Город Столиц": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "Башня Город Столиц": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Balchug Residence": {"district": "Замоскворечье", "city": "Москва", "country": "Россия"},
+    "Балчуг резиденс": {"district": "Замоскворечье", "city": "Москва", "country": "Россия"},
+    "Балчуг вьюпоинт": {"district": "Замоскворечье", "city": "Москва", "country": "Россия"},
+    
+    "Knightsbridge Private Park": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    "Вторичка Knightsbridge Private Park": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Крылья": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    "Крылья вторичка": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Level Мичуринский": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    "Мичуринский": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Level Стрешнево": {"district": "Покровское-Стрешнево", "city": "Москва", "country": "Россия"},
+    
+    "Stone Мневники": {"district": "Хорошево-Мневники", "city": "Москва", "country": "Россия"},
+    "Stone Калужская": {"district": "Обручевский", "city": "Москва", "country": "Россия"},
+    "Stone Ленинский": {"district": "Обручевский", "city": "Москва", "country": "Россия"},
+    
+    "Фили Сити": {"district": "Филевский Парк", "city": "Москва", "country": "Россия"},
+    
+    "Хедлайнер": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Остоженка 7": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    "на улице Остоженка, 24": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "Петровский парк": {"district": "Аэропорт", "city": "Москва", "country": "Россия"},
+    
+    "Дом на Мосфильмоской": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    "Мосфильмовский": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    "Вторичка Мосфильмовская 8": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Среда на Кутузовском": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    "Среда на Лобачевского": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Русский Авангард": {"district": "Якиманка", "city": "Москва", "country": "Россия"},
+    
+    "Серебряный парк": {"district": "Хорошево-Мневники", "city": "Москва", "country": "Россия"},
+    "Квартал Серебряный бор": {"district": "Хорошево-Мневники", "city": "Москва", "country": "Россия"},
+    
+    "Воробьёвы горы": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Код Сокольники": {"district": "Сокольники", "city": "Москва", "country": "Россия"},
+    
+    "Сады Пекина": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "Арбат 18с1": {"district": "Арбат", "city": "Москва", "country": "Россия"},
+    "Арбат 25/36": {"district": "Арбат", "city": "Москва", "country": "Россия"},
+    "Клубный Дом на Арбате": {"district": "Арбат", "city": "Москва", "country": "Россия"},
+    
+    "Театральный дом": {"district": "Тверской", "city": "Москва", "country": "Россия"},
+    
+    "Тверская 19": {"district": "Тверской", "city": "Москва", "country": "Россия"},
+    
+    "Триумф Палас": {"district": "Аэропорт", "city": "Москва", "country": "Россия"},
+    
+    "Дубровская Слобода": {"district": "Южнопортовый", "city": "Москва", "country": "Россия"},
+    
+    "ЖК ERA": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    "ERA": {"district": "Пресненский", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Дыхание": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Сколково Парк": {"district": "Можайский", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Долина Сетунь": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Хайд": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    "Hide": {"district": "Хамовники", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Камелот": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "ЖК Новое Очаково": {"district": "Очаково-Матвеевское", "city": "Москва", "country": "Россия"},
+    
+    "Шуваловский": {"district": "Раменки", "city": "Москва", "country": "Россия"},
+    
+    "Кутузов сити": {"district": "Дорогомилово", "city": "Москва", "country": "Россия"},
+    
+    "Николино": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    "Дом в Николино": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Ближняя Дача": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Жуковка": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Горки-8": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Переделки": {"district": "Ново-Переделкино", "city": "Москва", "country": "Россия"},
+    
+    "Грибово": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Николина Гора": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Косыгинские дачи": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Сады Майндорф": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Лесные дали": {"district": "Одинцовский", "city": "Подмосковье", "country": "Россия"},
+    
+    "КП Новорижский": {"district": "Истринский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Кристал Истра": {"district": "Истринский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Истринская Ревьера": {"district": "Истринский", "city": "Подмосковье", "country": "Россия"},
+    
+    "Рига парк": {"district": "Красногорский", "city": "Подмосковье", "country": "Россия"},
+    
+    "West garden": {"district": "Al Furjan", "city": "Dubai", "country": "ОАЭ"},
+    "Park Field": {"district": "Dubai Hills", "city": "Dubai", "country": "ОАЭ"},
+    "Grande Signature Residence": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "High life": {"district": "Downtown Dubai", "city": "Dubai", "country": "ОАЭ"},
+    "Aida townhouse and Escape": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Aida trump villas": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Park Horizon": {"district": "Dubai Creek Harbour", "city": "Dubai", "country": "ОАЭ"},
+    "ST Regis Residences": {"district": "Downtown Dubai", "city": "Dubai", "country": "ОАЭ"},
+    "Cloud Tower": {"district": "JLT", "city": "Dubai", "country": "ОАЭ"},
+    "Zen Residences": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Upside towers": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Sydney city": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Sidney City": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Сидней Сити": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Jois": {"district": "Jumeirah Village Circle", "city": "Dubai", "country": "ОАЭ"},
+    "Lucky": {"district": "Al Furjan", "city": "Dubai", "country": "ОАЭ"},
+    "Lacky": {"district": "Al Furjan", "city": "Dubai", "country": "ОАЭ"},
+    "City bay": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Life Time": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "The Pad": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Mosela": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Shift": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    
+    "JBR Address": {"district": "JBR", "city": "Dubai", "country": "ОАЭ"},
+    "JVC": {"district": "Jumeirah Village Circle", "city": "Dubai", "country": "ОАЭ"},
+    "Jacob and Co": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Binghatti Canal": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Canal Front": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Canal Front Residences 3": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Zada Tower": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Zada by Damac": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Azizi Venice": {"district": "Dubai South", "city": "Dubai", "country": "ОАЭ"},
+    "Damac Lagoons": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Miraclz by Danube": {"district": "JVC", "city": "Dubai", "country": "ОАЭ"},
+    "Torch tower": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Marina Pinnacle": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Marina Arcade": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Marina Sail": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Marina Wharf 1": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Silverene Tower B": {"district": "Dubai Marina", "city": "Dubai", "country": "ОАЭ"},
+    "Palm Beach Towers": {"district": "Palm Jumeirah", "city": "Dubai", "country": "ОАЭ"},
+    "Serenia Residences": {"district": "Palm Jumeirah", "city": "Dubai", "country": "ОАЭ"},
+    "Five lux": {"district": "Palm Jumeirah", "city": "Dubai", "country": "ОАЭ"},
+    "Sensoria Tower - five luxe t2": {"district": "Palm Jumeirah", "city": "Dubai", "country": "ОАЭ"},
+    "Armani casa": {"district": "Palm Jumeirah", "city": "Dubai", "country": "ОАЭ"},
+    "The Grand Creek Harbour": {"district": "Dubai Creek Harbour", "city": "Dubai", "country": "ОАЭ"},
+    "Creek gate": {"district": "Dubai Creek Harbour", "city": "Dubai", "country": "ОАЭ"},
+    "Grove Museum Views": {"district": "Dubai Hills", "city": "Dubai", "country": "ОАЭ"},
+    "Prive Dubai hills": {"district": "Dubai Hills", "city": "Dubai", "country": "ОАЭ"},
+    "Lime Gardens": {"district": "Dubai Hills", "city": "Dubai", "country": "ОАЭ"},
+    "Madinat Jumeirah Living": {"district": "Umm Suqeim", "city": "Dubai", "country": "ОАЭ"},
+    "MJL": {"district": "Umm Suqeim", "city": "Dubai", "country": "ОАЭ"},
+    "Jumeirah golf estate": {"district": "Jumeirah Golf Estates", "city": "Dubai", "country": "ОАЭ"},
+    "Emaar South": {"district": "Dubai South", "city": "Dubai", "country": "ОАЭ"},
+    "Expo City": {"district": "Dubai South", "city": "Dubai", "country": "ОАЭ"},
+    "Dubai South": {"district": "Dubai South", "city": "Dubai", "country": "ОАЭ"},
+    "Motor City": {"district": "Motor City", "city": "Dubai", "country": "ОАЭ"},
+    "Al Furjan": {"district": "Al Furjan", "city": "Dubai", "country": "ОАЭ"},
+    "Al wasl": {"district": "Al Wasl", "city": "Dubai", "country": "ОАЭ"},
+    "Business Bay": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Tecom": {"district": "Tecom", "city": "Dubai", "country": "ОАЭ"},
+    "Amber city": {"district": "DIFC", "city": "Dubai", "country": "ОАЭ"},
+    "Central park": {"district": "DIFC", "city": "Dubai", "country": "ОАЭ"},
+    "Arc Tower": {"district": "Downtown Dubai", "city": "Dubai", "country": "ОАЭ"},
+    "Elite Downtown Residence": {"district": "Downtown Dubai", "city": "Dubai", "country": "ОАЭ"},
+    "OPUS": {"district": "Business Bay", "city": "Dubai", "country": "ОАЭ"},
+    "Beachfront - Beach Vista": {"district": "Emaar Beachfront", "city": "Dubai", "country": "ОАЭ"},
+    "Grand Bleu Tower": {"district": "Emaar Beachfront", "city": "Dubai", "country": "ОАЭ"},
+    "Air": {"district": "Al Sufouh", "city": "Dubai", "country": "ОАЭ"},
+    "Indy Towers": {"district": "JLT", "city": "Dubai", "country": "ОАЭ"},
+    "Lake View Tower": {"district": "JLT", "city": "Dubai", "country": "ОАЭ"},
+    "Opal Tower": {"district": "JLT", "city": "Dubai", "country": "ОАЭ"},
+    "Lamtara 2": {"district": "MBR City", "city": "Dubai", "country": "ОАЭ"},
+    "Wilton Park Residences": {"district": "MBR City", "city": "Dubai", "country": "ОАЭ"},
+    "Mudon Al Ranim 3": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Great Escape 2": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Sustainable City": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "The Sustainable City": {"district": "Dubai Land", "city": "Dubai", "country": "ОАЭ"},
+    "Hayat Boulevard. -Town Square": {"district": "Town Square", "city": "Dubai", "country": "ОАЭ"},
+    "Jaddaf": {"district": "Al Jaddaf", "city": "Dubai", "country": "ОАЭ"},
+    "Jadeel 3": {"district": "Al Jaddaf", "city": "Dubai", "country": "ОАЭ"},
+    
+    "Jubail Island": {"district": "Jubail Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Hidd al saadiayt villa": {"district": "Saadiyat Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Hidd Saadyat": {"district": "Saadiyat Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Mamsha Al Saadiyat Apartments and Townhouses": {"district": "Saadiyat Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Yas beach": {"district": "Yas Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Fairmont Abu Dhabi": {"district": "Al Maryah Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    "Al Fattan Marine Towers": {"district": "Al Reem Island", "city": "Abu Dhabi", "country": "ОАЭ"},
+    
+    "Muscat Bay": {"district": "Muscat Bay", "city": "Muscat", "country": "Оман"},
+    "Jebel Sifa Solaris and Raya": {"district": "Jebel Sifa", "city": "Muscat", "country": "Оман"},
+    "Hawana Salalah": {"district": "Salalah", "city": "Salalah", "country": "Оман"},
+    "Oman all projects": {"district": "Various", "city": "Muscat", "country": "Оман"},
+    
+    "Hay Al Wafaa": {"district": "Hay Al Wafaa", "city": "Riyadh", "country": "Саудовская Аравия"},
+    "Nafayef": {"district": "Nafayef", "city": "Riyadh", "country": "Саудовская Аравия"},
+    
+    "HQ Shoreditch": {"district": "Shoreditch", "city": "London", "country": "UK"},
+    
+    "Прайм Приморский": {"district": "Приморский", "city": "Санкт-Петербург", "country": "Россия"},
+    "Леонтьевский мыс": {"district": "Петроградский", "city": "Санкт-Петербург", "country": "Россия"}
+  }
+}

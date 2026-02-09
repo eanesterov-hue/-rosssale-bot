@@ -1,0 +1,14 @@
+# Секреты
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Временные файлы Excel
+~$*.xlsx
+
+# macOS
+.DS_Store
