@@ -243,9 +243,11 @@ def load_data():
     return df, None
 
 
-def parse_date(date_str: str) -> datetime:
-    """Парсинг даты"""
-    return datetime.strptime(date_str, "%d.%m.%Y")
+def parse_date(date_val) -> datetime:
+    """Парсинг даты (строка «ДД.ММ.ГГГГ» или уже datetime из Excel)."""
+    if isinstance(date_val, datetime):
+        return date_val.replace(hour=0, minute=0, second=0, microsecond=0)
+    return datetime.strptime(str(date_val).strip(), "%d.%m.%Y")
 
 
 def find_best_match(query: str, objects: list) -> tuple:
@@ -497,10 +499,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     # Проверяем: поиск по району?
-    query_lower = query.lower()
-    if query_lower.startswith("район ") or query_lower.startswith("район:"):
-        # Извлекаем название района
-        district_query = query[6:].strip().lstrip(":")
+    query_stripped = query.strip()
+    query_lower = query_stripped.lower()
+    if query_lower.startswith("район"):
+        # Всё после "район" (пробелы, двоеточие — отбрасываем)
+        district_query = query_stripped[5:].strip().lstrip(":").strip()
         if district_query:
             await handle_district_search(update, district_query)
             return
@@ -513,6 +516,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     if not result["found"]:
+        # Пробуем поиск по району (например, «хамовники» без слова «район»)
+        district_result = search_by_district(query)
+        if district_result.get("found"):
+            await handle_district_search(update, query)
+            return
         await update.message.reply_text(
             f"🔍 По запросу «{result['query']}» ничего не найдено.\n\n"
             f"Проверьте написание и попробуйте снова."
